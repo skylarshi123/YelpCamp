@@ -7,6 +7,7 @@ const Joi = require("joi");
       location: Joi.string().required(),
       description: Joi.string().required(),
     }).required(),
+    deleteImages: Joi.array(),
   });
 
   module.exports.reviewSchema = Joi.object({
