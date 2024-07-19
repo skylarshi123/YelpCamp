@@ -112,7 +112,7 @@
 
 <script>
   const maptilerApiKey = '<%= process.env.MAPTILER_KEY %>';
-  const campground = JSON.parse('<%- JSON.stringify(campground) %>');
+  const campground = <%- JSON.stringify(campground)%>
   console.log("API Key:", maptilerApiKey);
   console.log("Campground:", campground);
 </script>
