@@ -3,7 +3,7 @@ maptilersdk.config.apiKey = maptilerApiKey;
         container: 'map',
         zoom: 0.3,
         center: [0, 20],
-        style: maptilersdk.MapStyle.DATAVIZ.DARK
+        style: maptilersdk.MapStyle.DATAVIZ.LIGHT
     });
 
       map.on('load', function () {
@@ -30,20 +30,20 @@ maptilersdk.config.apiKey = maptilerApiKey;
             'circle-color': [
               'step',
               ['get', 'point_count'],
-              '#51bbd6',
-              100,
-              '#f1f075',
-              750,
-              '#f28cb1'
+              '#00BCD4',
+              10,
+              '#2196F3',
+              30,
+              '#3F51B5'
             ],
             'circle-radius': [
               'step',
               ['get', 'point_count'],
+              15,
+              10,
               20,
-              100,
               30,
-              750,
-              40
+              25
             ]
           }
         });
