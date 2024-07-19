@@ -2,7 +2,6 @@ const {places, descriptors} = require("./seedHelpers");
 const mongoose = require("mongoose");
 const Campground = require("../models/campground");
 const cities = require('./cities');
-const campground = require("../models/campground");
 
 mongoose.connect("mongodb://localhost:27017/yelp-camp", {
 })
@@ -23,11 +22,14 @@ const seedDB = async () => {
       const camp = new Campground({
           geometry: {
               type: "Point",
-              coordinates: [ -122.33006201684474, 47.60383218152247 ]
+              coordinates: [ 
+                cities[random1000].longitude, 
+                cities[random1000].latitude
+              ]
           },
           title: `${sample(descriptors)} ${sample(places)}`,
           price: price,
-          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, fugit"',
+          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, fugit',
           location: `${cities[random1000].city}, ${cities[random1000].state}`,
           reviews: [],  // Empty reviews array
           images: [
