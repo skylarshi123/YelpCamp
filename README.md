@@ -1,9 +1,9 @@
 # YelpCamp 🏕️
 
 <div align="center">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.livesoflara.com%2Fcamping%2Fguide-sunset-campground-sequoia&psig=AOvVaw3456be6Gl_QFELhMqjTcUf&ust=1734561267595000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIj6vLTur4oDFQAAAAAdAAAAABAE" alt="YelpCamp Banner - Sunset over campground" />
+  <img src="https://plus.unsplash.com/premium_photo-1680788452823-49bb63651490?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="YelpCamp Banner - Sunset over campground" />
   <br><br>
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FHotel_Review-g143050-d678559-Reviews-Sunset_Campground-Sequoia_and_Kings_Canyon_National_Park_California.html&psig=AOvVaw3456be6Gl_QFELhMqjTcUf&ust=1734561267595000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIj6vLTur4oDFQAAAAAdAAAAABAI" alt="YelpCamp Interface Preview" />
+  <img src="https://images.unsplash.com/photo-1476041800959-2f6bb412c8ce?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="YelpCamp Interface Preview" />
 </div>
 
 > 🌲 Discover your next outdoor adventure with YelpCamp - where camping meets community!
